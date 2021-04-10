@@ -30,7 +30,7 @@ This data was then saved in csv file for further analysis. You can see commented
 
 Since I scraped only the data I needed there was almost no need for data cleaning besides deleting one column containing links for specific book pages. I looked at the distribution of the data and the value counts for each category and found some interesting highlights.
 
-  ![Genres](/main/images/genres.png)
+  ![Genres](/images/genres.png)
   ![Number of pages](/main/images/pages_hist.png)
   ![Average rating](/blob/main/images/rating_hist.png)
   ![Number of votes](https://github.com/Fibonacci-bot/Web-scraping-and-analysis-of-Goodreads-book-list/blob/main/images/votes_hist.png)
