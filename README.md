@@ -24,13 +24,17 @@ During the web scraping part of this project I decided what information I want t
 6. Number of pages
 7. Genre
 
-This data was then saved in csv file for further analysis. You can see commented python core here.
+This data was then saved in csv file for further analysis. You can see commented python code here.
 
 ## Data Analysis
 
 Since I scraped only the data I needed there was almost no need for data cleaning besides deleting one column containing links for specific book pages. I looked at the distribution of the data and the value counts for each category and found some interesting highlights.
 
-
+  ![](https://github.com/Fibonacci-bot/Web-scraping-and-analysis-of-Goodreads-book-list/blob/main/images/genres.png)
+  ![](https://github.com/Fibonacci-bot/Web-scraping-and-analysis-of-Goodreads-book-list/blob/main/images/pages_hist.png)
+  ![](https://github.com/Fibonacci-bot/Web-scraping-and-analysis-of-Goodreads-book-list/blob/main/images/rating_hist.png)
+  ![](https://github.com/Fibonacci-bot/Web-scraping-and-analysis-of-Goodreads-book-list/blob/main/images/votes_hist.png)
+  
 
 
 
