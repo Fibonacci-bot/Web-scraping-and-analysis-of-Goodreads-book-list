@@ -42,23 +42,24 @@ langs.set_ylabel('Number of books')
 # Most popular books according to number of votes
 books[books['Number of votes']>10000]
 
-# Is there corrolation between number of votes,rating and number of pages?
+# Is there a corrolation between number of votes,rating and number of pages?
 books[['Number of votes','Avg. Rating','Number of pages']].corr()
 
 # Histogram for number of pages, I used range for x axis is divided into 200 increments by xticks
 plt.hist(books['Number of pages'].value_counts().index,bins=20)
 plt.xticks(range(0, 1600, 200))
+plt.title('Number of pages')
 
 # Histogram for number of votes
-plt.figure(figsize=(10,5))
-plt.hist(books['Number of votes'].value_counts().index,bins=20)
+plt.hist(books['Number of votes'].value_counts().index,bins=20,label='ahoj')
 plt.xticks(range(0, 25000, 2500))
+plt.title('Number of votes')
 
 # Histogram for average rating, x axis is divided into 0.1 increments
 plt.figure(figsize=(10,5))
 plt.hist(books['Avg. Rating'].value_counts().index,bins=14)
 plt.xticks(np.arange(3.3,4.7,.1))
-
+plt.title('Average Rating')
 
 
 
