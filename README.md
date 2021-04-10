@@ -24,18 +24,18 @@ During the web scraping part of this project I decided what information I want t
 6. Number of pages
 7. Genre
 
-This data was then saved in csv file for further analysis. You can see commented python code here.
+This data was then saved in csv file for further analysis. You can see commented python code here [scraper](https://github.com/Fibonacci-bot/Web-scraping-and-analysis-of-Goodreads-book-list/blob/main/goodreads_scraper.py).
 
 ## Data Analysis
 
 Since I scraped only the data I needed there was almost no need for data cleaning besides deleting one column containing links for specific book pages. I looked at the distribution of the data and the value counts for each category and found some interesting highlights.
 
-  ![](https://github.com/Fibonacci-bot/Web-scraping-and-analysis-of-Goodreads-book-list/blob/main/images/genres.png)
-  ![](https://github.com/Fibonacci-bot/Web-scraping-and-analysis-of-Goodreads-book-list/blob/main/images/pages_hist.png)
-  ![](https://github.com/Fibonacci-bot/Web-scraping-and-analysis-of-Goodreads-book-list/blob/main/images/rating_hist.png)
-  ![](https://github.com/Fibonacci-bot/Web-scraping-and-analysis-of-Goodreads-book-list/blob/main/images/votes_hist.png)
+  ![Genres](https://github.com/Fibonacci-bot/Web-scraping-and-analysis-of-Goodreads-book-list/blob/main/images/genres.png)
+  ![Number of pages](https://github.com/Fibonacci-bot/Web-scraping-and-analysis-of-Goodreads-book-list/blob/main/images/pages_hist.png)
+  ![Average rating](https://github.com/Fibonacci-bot/Web-scraping-and-analysis-of-Goodreads-book-list/blob/main/images/rating_hist.png)
+  ![Number of votes](https://github.com/Fibonacci-bot/Web-scraping-and-analysis-of-Goodreads-book-list/blob/main/images/votes_hist.png)
   
-
+I also looked into corrolation between the number of votes, average rating and number of pages with. Based on this books with higher number of votes have higher average rating and books with more pages have slightly lower number of votes but higher average rating. You can find more details in commented code here [analysis](https://github.com/Fibonacci-bot/Web-scraping-and-analysis-of-Goodreads-book-list/blob/main/goodreads_analysis.py)
 
 
 
