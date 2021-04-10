@@ -5,9 +5,9 @@ I was interested in what kinds of books are most often recommended in the most p
 
 
 ## Project overview
-*Created a tool for scraping data from Goodreads book lists
-*Saved all the data in csv file
-*Looked at the distribution of the data and anylised it, below are a few highlights from this data set.
+* Created a tool for scraping data from Goodreads book lists
+* Saved all the data in csv file
+* Looked at the distribution of the data and anylised it, below are a few highlights from this data set.
 
 ## Python version and packages used 
 **Python Version:** 3.8  
@@ -26,7 +26,7 @@ During the web scraping part of this project I decided what information I want t
 
 This data was then saved in csv file for further analysis. You can see commented python core here.
 
-##Data Analysis
+## Data Analysis
 
 Since I scraped only the data I needed there was almost no need for data cleaning besides deleting one column containing links for specific book pages. I looked at the distribution of the data and the value counts for each category and found some interesting highlights.
 
