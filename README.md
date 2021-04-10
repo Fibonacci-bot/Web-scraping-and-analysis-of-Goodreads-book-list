@@ -7,7 +7,7 @@ I was interested in what kinds of books are most often recommended in the most p
 ## Project overview
 * Created a tool for scraping data from Goodreads book lists
 * Saved all the data in csv file
-* Looked at the distribution of the data and anylised it, below are a few highlights from this data set.
+* Looked at the distribution of the data and analysed it, below are a few highlights from this data set.
 
 ## Python version and packages used 
 **Python Version:** 3.8  
@@ -31,11 +31,11 @@ This data was then saved in csv file for further analysis. You can see commented
 Since I scraped only the data I needed there was almost no need for data cleaning besides deleting one column containing links for specific book pages. I looked at the distribution of the data and the value counts for each category and found some interesting highlights.
 
   ![Genres](/images/genres.png)
-  ![Number of pages](/main/images/pages_hist.png)
-  ![Average rating](/blob/main/images/rating_hist.png)
-  ![Number of votes](https://github.com/Fibonacci-bot/Web-scraping-and-analysis-of-Goodreads-book-list/blob/main/images/votes_hist.png)
+  ![Number of pages](/images/pages_hist.png)
+  ![Average rating](/images/rating_hist.png)
+  ![Number of votes](/images/votes_hist.png)
   
-I also looked into corrolation between the number of votes, average rating and number of pages with. Based on this books with higher number of votes have higher average rating and books with more pages have slightly lower number of votes but higher average rating. You can find more details in commented code here [analysis](https://github.com/Fibonacci-bot/Web-scraping-and-analysis-of-Goodreads-book-list/blob/main/goodreads_analysis.py)
+I also looked into correlation between the number of votes, average rating and number of pages with. Based on this books with higher number of votes have higher average rating and books with more pages have slightly lower number of votes but higher average rating. You can find more details in commented code here [analysis](https://github.com/Fibonacci-bot/Web-scraping-and-analysis-of-Goodreads-book-list/blob/main/goodreads_analysis.py)
 
 
 
