@@ -31,12 +31,19 @@ This data was then saved in csv file for further analysis. You can see commented
 Since I scraped only the data I needed there was almost no need for data cleaning besides deleting one column containing links for specific book pages. I looked at the distribution of the data and the value counts for each category and found some interesting highlights.
 
   ![Genres](/images/genres.png)
+  
   As expected most popular genres are classics and fantasy, these are very popular and a lot of people get into literature either thanks to classics in school or through fantasy which is another very popular genre.
+  
   ![Number of pages](/images/pages_hist.png)
+  
   Most popular books are the ones with 200-400 pages, these books are ideal length for reading and from this it seems that very long books scare people away since its such a commitment to read a very long book.
+  
   ![Average rating](/images/rating_hist.png)
+  
   These books are well known and loved throughout generations but I expected little bit higher scores, this can be caused by their popularity, its bound to happen that even people who wouldn't necessarily pick books like this on their own these because they are so popular but its not their cup of it which can lower overall rating.
+  
   ![Number of votes](/images/votes_hist.png)
+  
   This one was surprising. I expected normal distribution but most of the books have lower ratings, this may be caused by outliers. If we would select only books with less votes than 12 000 we would get a more balanced distribution without low number of votes, because all of these books are popular and they are bound to have larger numbers of votes than the average number of votes for all the books on goodreads.
   
 I also looked into correlation between the number of votes, average rating and number of pages with. Based on this books with higher number of votes have higher average rating and books with more pages have slightly lower number of votes but higher average rating. You can find more details in commented code here [analysis](https://github.com/Fibonacci-bot/Web-scraping-and-analysis-of-Goodreads-book-list/blob/main/goodreads_analysis.py)
